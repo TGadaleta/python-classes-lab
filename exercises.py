@@ -3,12 +3,11 @@ class Game():
         self.turn = turn
         self.tie = tie
         self.winner = winner
-    
-    board = {
+        self.board = {
         'a1': None, 'b1': None, 'c1': None,
         'a2': None, 'b2': None, 'c2': None,
         'a3': None, 'b3': None, 'c3': None,
-    }
+        }
 
     def print_board(self):
         b = self.board
